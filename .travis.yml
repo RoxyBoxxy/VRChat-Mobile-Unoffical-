@@ -16,9 +16,8 @@ branches:
 install:
   - curl -sL https://deb.nodesource.com/setup_8.x | sudo bash -
   - sudo apt install nodejs
-  - npm cache clean
+  - sudo npm install -g cordova
   - npm install
-  - npm install -g cordova
   - echo y | android update sdk -u --filter android-22,android-23
 
 before_script:
