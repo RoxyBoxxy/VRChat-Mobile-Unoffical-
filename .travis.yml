@@ -14,7 +14,8 @@ branches:
   - master
 
 install:
-  - sudo apt install npm
+  - curl -sL https://deb.nodesource.com/setup_8.x | sudo bash -
+  - sudo apt install nodejs
   - npm cache clean
   - npm install
   - npm install -g cordova
