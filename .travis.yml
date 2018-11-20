@@ -1,8 +1,9 @@
 language: android
 
 node_js:
-  - 5.5
-
+  - 8.12
+npm:
+  - 6.4.1
 notifications:
   email: false
 
