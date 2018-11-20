@@ -22,7 +22,7 @@
     </platform>
     <plugin name="cordova-plugin-firebase" spec="^1.0.5" />
     <plugin name="cordova-plugin-appversion" spec="^1.0.0" />
-    <engine name="android" spec="^7.0.0" />
     <engine name="windows" spec="^5.0.0" />
     <engine name="ios" spec="^4.5.5" />
+    <engine name="android" spec="~7.0.0" />
 </widget>
