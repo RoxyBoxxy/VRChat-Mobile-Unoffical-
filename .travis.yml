@@ -18,7 +18,7 @@ install:
   - sudo apt install nodejs
   - sudo npm install -g cordova
   - npm install
-  - echo y | android update sdk -u --filter android-22,android-23
+  - echo y | android update sdk -u --filter android-27
 
 before_script:
   - cordova platform rm android
