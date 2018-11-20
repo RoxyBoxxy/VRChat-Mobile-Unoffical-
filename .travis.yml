@@ -7,7 +7,7 @@ npm:
 notifications:
   email: false
 
-sudo: false
+sudo: true
 
 branches:
   only:
