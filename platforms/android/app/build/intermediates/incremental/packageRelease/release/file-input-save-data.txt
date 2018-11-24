@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Nov 24 22:43:28 GMT 2018
+#Sat Nov 24 23:02:31 GMT 2018
 20.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release
 143.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release
 493.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar

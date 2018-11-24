@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_icon.png.flat",
-        "source": "C:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\src\\main\\res\\mipmap-xhdpi\\icon.png"
-    },
-    {
         "merged": "C:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
         "source": "C:\\Users\\Rox\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\203d1e0338ac99f68e791a7482d57ed2\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_icon.png.flat",
+        "source": "C:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\src\\main\\res\\mipmap-xhdpi\\icon.png"
     },
     {
         "merged": "C:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\layout_notification_template_big_media_narrow.xml.flat",
@@ -52,12 +52,12 @@
         "source": "C:\\Users\\Rox\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\203d1e0338ac99f68e791a7482d57ed2\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
     },
     {
-        "merged": "C:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\Rox\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\203d1e0338ac99f68e791a7482d57ed2\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
-    },
-    {
         "merged": "C:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat",
         "source": "C:\\Users\\Rox\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\203d1e0338ac99f68e791a7482d57ed2\\res\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "C:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\Rox\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\203d1e0338ac99f68e791a7482d57ed2\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
@@ -100,20 +100,20 @@
         "source": "C:\\Users\\Rox\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\5bbc4263b4bd865a7557a727c16993ab\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "C:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_light_focused.xml.flat",
-        "source": "C:\\Users\\Rox\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\203d1e0338ac99f68e791a7482d57ed2\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
-    },
-    {
         "merged": "C:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "C:\\Users\\Rox\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\5bbc4263b4bd865a7557a727c16993ab\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-land-ldpi_screen.png.flat",
-        "source": "C:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\src\\main\\res\\drawable-land-ldpi\\screen.png"
+        "merged": "C:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_text_light_focused.xml.flat",
+        "source": "C:\\Users\\Rox\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\203d1e0338ac99f68e791a7482d57ed2\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
     },
     {
         "merged": "C:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
         "source": "C:\\Users\\Rox\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\5bbc4263b4bd865a7557a727c16993ab\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-land-ldpi_screen.png.flat",
+        "source": "C:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\src\\main\\res\\drawable-land-ldpi\\screen.png"
     },
     {
         "merged": "C:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_common_google_signin_btn_icon_dark_focused.xml.flat",
