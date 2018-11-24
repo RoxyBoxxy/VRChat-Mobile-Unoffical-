@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Nov 24 19:30:28 GMT 2018
+#Sat Nov 24 22:43:28 GMT 2018
 20.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release
 143.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release
 493.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar
@@ -121,7 +121,7 @@
 37.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release
 654.set=JAVA_RESOURCE
 157.set=ANDROID_RESOURCE
-63.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\collections\\AbstractIterator.kotlin_metadata
+63.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\internal\\RequireKotlinVersionKind.kotlin_metadata
 186.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\release\\resources-release.ap_\\res\\layout-v16\\notification_template_custom_big.xml
 532.set=ASSET
 96.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\collections\\ReversedList.kotlin_metadata
@@ -183,7 +183,7 @@
 341.set=ASSET
 267.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release
 114.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\release\\resources-release.ap_\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png
-464.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\collections\\HashSet.kotlin_metadata
+464.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\coroutines\\experimental\\CombinedContext.kotlin_metadata
 635.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\firebase-core.properties
 264.set=ASSET
 24.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\pulltorefresh.js\\bower.json
@@ -370,7 +370,7 @@
 125.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release
 142.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\collections\\AbstractMutableMap.kotlin_metadata
 666.set=JAVA_RESOURCE
-492.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\firebase-auth-interop.properties
+492.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\comparisons\\ReversedComparator.kotlin_metadata
 169.set=ASSET
 663.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\assets\\css\\noscript.css
 646.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar
@@ -412,7 +412,7 @@
 319.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar
 71.set=ANDROID_RESOURCE
 322.set=ASSET
-516.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\firebase-analytics.properties
+516.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\text\\Typography.kotlin_metadata
 75.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\assets\\css\\font-awesome.min.css
 549.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\assets\\scss\\bootstrap\\mixins\\_clearfix.scss
 245.set=ASSET
@@ -464,7 +464,7 @@
 316.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\assets\\fonts\\icomoon\\index.html
 199.set=JAVA_RESOURCE
 29.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release
-178.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\TuplesKt.kotlin_metadata
+178.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\collections\\LinkedHashMap.kotlin_metadata
 349.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\assets\\scss\\bootstrap\\_custom-forms.scss
 452.set=ASSET
 350.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\release\\resources-release.ap_
@@ -567,13 +567,13 @@
 531.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\assets\\js\\index.html
 73.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar
 517.set=JAVA_RESOURCE
-393.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\release\\resources-release.ap_\\res\\drawable\\common_google_signin_btn_icon_dark.xml
+393.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\release\\resources-release.ap_\\res\\layout-v17\\notification_action.xml
 547.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release
 256.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\assets\\scss\\bootstrap\\mixins\\_grid.scss
 427.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\assets\\scss\\bootstrap\\mixins\\_nav-divider.scss
 67.set=ASSET
 318.set=ASSET
-289.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\javax\\annotation\\WillCloseWhenClosed.java
+289.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\javax\\annotation\\Tainted.java
 290.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release
 120.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar
 119.set=ANDROID_RESOURCE
@@ -586,7 +586,7 @@
 186.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\release\\resources-release.ap_
 80.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\assets\\fonts\\icomoon\\icomoon.ttf
 417.set=ASSET
-383.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\release\\resources-release.ap_\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png
+383.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\release\\resources-release.ap_\\res\\drawable-hdpi-v4\\googleg_disabled_color_18.png
 554.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\pulltorefresh.js\\yarn.lock
 44.set=ASSET
 2.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\assets\\scss\\bootstrap\\_modal.scss
@@ -631,7 +631,7 @@
 508.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\release\\resources-release.ap_
 502.set=ASSET
 199.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar
-93.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\release\\resources-release.ap_\\res\\layout-v17\\notification_template_big_media_custom.xml
+93.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\release\\resources-release.ap_\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml
 217.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\assets\\scss\\style.scss
 567.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\qrcode.min.js
 425.set=JAVA_RESOURCE
@@ -651,7 +651,7 @@
 173.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\assets\\js\\breakpoints.min.js
 479.set=ASSET
 344.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\sequences\\IndexingSequence.kotlin_metadata
-515.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\text\\Typography.kotlin_metadata
+515.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\firebase-analytics.properties
 402.set=ASSET
 57.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release
 357.set=ASSET
@@ -694,12 +694,12 @@
 311.set=ANDROID_RESOURCE
 264.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release
 111.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\release\\resources-release.ap_\\res\\drawable-xhdpi-v4\\googleg_disabled_color_18.png
-461.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\sequences\\Sequence.kotlin_metadata
+461.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\comparisons\\ComparisonsKt.kotlin_metadata
 632.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\release\\resources-release.ap_\\res\\drawable\\notification_bg_low.xml
 297.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar
 234.set=ASSET
 127.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release
-21.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\sequences\\MergingSequence.kotlin_metadata
+21.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\collections\\MapAccessorsKt.kotlin_metadata
 144.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\assets\\scss\\style.css.map
 494.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\assets\\js\\lib\\chosen\\chosen.jquery.min.js
 665.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\release\\resources-release.ap_\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml
@@ -837,7 +837,7 @@
 398.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar
 228.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\release\\resources-release.ap_
 245.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\popup.js
-595.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\coroutines\\experimental\\intrinsics\\CoroutinesIntrinsicsHKt.kotlin_metadata
+595.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\AssertionError.kotlin_metadata
 281.set=ASSET
 108.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\assets\\css\\cs-skin-elastic.css
 629.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\javax\\annotation\\CheckForSigned.java
@@ -1022,7 +1022,7 @@
 331.set=JAVA_RESOURCE
 266.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\release\\resources-release.ap_
 113.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\NullPointerException.kotlin_metadata
-463.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\coroutines\\experimental\\CombinedContext.kotlin_metadata
+463.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\collections\\HashSet.kotlin_metadata
 634.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\assets\\js\\lib\\data-table\\buttons.html5.min.js
 299.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release
 254.set=ASSET
@@ -1035,7 +1035,7 @@
 584.set=ASSET
 56.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\firebase-crash.properties
 177.set=JAVA_RESOURCE
-359.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\META-INF\\gradle-plugins\\com.google.android.gms.strict-version-matcher-plugin.properties
+359.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\firebase-common.properties
 89.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\assets\\js\\lib\\data-table\\jszip.min.js
 360.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release
 531.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release
@@ -1088,7 +1088,7 @@
 592.set=JAVA_RESOURCE
 70.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar
 185.set=ASSET
-390.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\jvm\\JvmName.kotlin_metadata
+390.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\sequences\\TakeWhileSequence.kotlin_metadata
 544.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release
 227.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar
 577.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release
@@ -1219,7 +1219,7 @@
 141.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\release\\resources-release.ap_\\res\\layout-v17\\notification_template_big_media_narrow.xml
 124.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release
 656.set=JAVA_RESOURCE
-491.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\comparisons\\ReversedComparator.kotlin_metadata
+491.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\firebase-auth-interop.properties
 159.set=ASSET
 662.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\assets\\scss\\bootstrap\\_breadcrumb.scss
 645.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release
@@ -1283,7 +1283,7 @@
 38.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release
 664.set=JAVA_RESOURCE
 167.set=ASSET
-64.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\internal\\RequireKotlinVersionKind.kotlin_metadata
+64.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\collections\\AbstractIterator.kotlin_metadata
 187.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\release\\resources-release.ap_\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png
 542.set=ANDROID_RESOURCE
 97.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\collections\\MovingSubList.kotlin_metadata
@@ -1307,7 +1307,7 @@
 315.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\assets\\sass\\components\\_contact-method.scss
 189.set=ASSET
 28.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar
-177.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\collections\\LinkedHashMap.kotlin_metadata
+177.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\TuplesKt.kotlin_metadata
 348.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\assets\\css\\lib\\chosen\\chosen-sprite.png
 442.set=ASSET
 397.set=ANDROID_RESOURCE
@@ -1407,8 +1407,8 @@
 426.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\text\\Appendable.kotlin_metadata
 57.set=ASSET
 308.set=ASSET
-288.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\javax\\annotation\\Tainted.java
-459.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\comparisons\\ComparisonsKt.kotlin_metadata
+288.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\javax\\annotation\\WillCloseWhenClosed.java
+459.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\sequences\\Sequence.kotlin_metadata
 109.set=ASSET
 182.set=ASSET
 152.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar
@@ -1418,7 +1418,7 @@
 62.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release
 407.set=ANDROID_RESOURCE
 390.set=JAVA_RESOURCE
-382.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\release\\resources-release.ap_\\res\\drawable-hdpi-v4\\googleg_disabled_color_18.png
+382.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\release\\resources-release.ap_\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png
 553.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\profile.html
 34.set=ASSET
 1.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\assets\\js\\lib\\gmap\\gmapApi.js
@@ -1467,7 +1467,7 @@
 507.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar
 190.set=ANDROID_RESOURCE
 198.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release
-92.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\release\\resources-release.ap_\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml
+92.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\release\\resources-release.ap_\\res\\layout-v17\\notification_template_big_media_custom.xml
 369.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release
 216.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\sequences\\TakeSequence.kotlin_metadata
 566.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\assets\\scss\\bootstrap\\_code.scss
@@ -1561,7 +1561,7 @@
 86.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\assets\\scss\\_widgets.scss
 477.set=ANDROID_RESOURCE
 400.set=ASSET
-389.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\sequences\\TakeWhileSequence.kotlin_metadata
+389.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\jvm\\JvmName.kotlin_metadata
 355.set=ANDROID_RESOURCE
 8.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\assets\\js\\lib\\flot-chart\\excanvas.min.js
 390.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar
@@ -1728,7 +1728,7 @@
 532.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\assets\\scss\\bootstrap\\_nav.scss
 74.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar
 527.set=ASSET
-394.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\release\\resources-release.ap_\\res\\layout-v17\\notification_action.xml
+394.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\release\\resources-release.ap_\\res\\drawable\\common_google_signin_btn_icon_dark.xml
 548.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release
 count=671
 257.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\RuntimeException.kotlin_metadata
@@ -1860,7 +1860,7 @@ count=671
 298.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release
 244.set=ASSET
 128.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release
-22.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\collections\\MapAccessorsKt.kotlin_metadata
+22.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\sequences\\MergingSequence.kotlin_metadata
 145.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\coroutines\\experimental\\ContinuationInterceptor.kotlin_metadata
 495.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\javax\\annotation\\ParametersAreNullableByDefault.java
 666.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\collections\\IndexingIterator.kotlin_metadata
@@ -1868,7 +1868,7 @@ count=671
 122.set=JAVA_RESOURCE
 574.set=ASSET
 55.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\res\\release\\resources-release.ap_\\res\\drawable\\common_google_signin_btn_icon_disabled.xml
-358.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\firebase-common.properties
+358.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\META-INF\\gradle-plugins\\com.google.android.gms.strict-version-matcher-plugin.properties
 529.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\assets\\scss\\bootstrap\\_list-group.scss
 88.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\ranges\\RangesKt.kotlin_metadata
 497.set=JAVA_RESOURCE
@@ -2005,7 +2005,7 @@ count=671
 12.set=ASSET
 229.base=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release
 246.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\assets\\scss\\bootstrap\\mixins\\_hover.scss
-596.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\AssertionError.kotlin_metadata
+596.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\transforms\\mergeJavaRes\\release\\0.jar\\kotlin\\coroutines\\experimental\\intrinsics\\CoroutinesIntrinsicsHKt.kotlin_metadata
 291.set=JAVA_RESOURCE
 109.file=C\:\\Users\\Rox\\Documents\\GitHub\\VRChat-Mobile-Unoffical-\\platforms\\android\\app\\build\\intermediates\\assets\\release\\www\\assets\\scss\\bootstrap\\bootstrap-reboot.css
 638.set=ASSET
