@@ -7,10 +7,11 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-appversion": {
+    "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.roxyboxxy.vrchatmobile"
     },
-    "cordova-plugin-firebase": {
+    "phonegap-plugin-barcodescanner": {
+      "ANDROID_SUPPORT_V4_VERSION": "27.+",
       "PACKAGE_NAME": "com.roxyboxxy.vrchatmobile"
     }
   },

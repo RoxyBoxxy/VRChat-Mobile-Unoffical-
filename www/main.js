@@ -79,7 +79,7 @@ function sendReqCommand(prop,endpoint,success,error){
 		        console.log("XMLHttpRequest : " + XMLHttpRequest.status);
 		        console.log("textStatus     : " + textStatus);
 		        console.log("errorThrown    : " + errorThrown.message);
-				alert ("Error connecting to the VRChat Servers, Check your connection and try again");
+				alert ("Error code " + XMLHttpRequest.status);
 				error();
 			}
 	$.ajax(p);
@@ -108,6 +108,7 @@ function getInfo(success,error){
 	localStorage["user_icon_url"] = userdata["currentAvatarThumbnailImageUrl"];
 	localStorage["user_name"] = userdata["displayName"];
 	localStorage["friends_num"] = userdata["friends"].length;
+	localStorage["usr_id"] = userdata["id"];
 	showInfo(userdata);
 	},error);
 }
@@ -119,12 +120,15 @@ function showInfo(data){
 	console.log(userdata['currentAvatarThumbnailImageUrl']);
 	var icon = userdata['currentAvatarThumbnailImageUrl'];
 	var name = userdata['displayName'];
-
+    var id = userdata["id"];
+	
 	var $img = $("<img>").attr({src: icon,id:"myicon"});
 	var $name= $("<div>").text(name);
+	
 	var $onfr   = $("<div>").attr({id:"onfr" ,title:"onlinefriends"});
+	var $id = $("<input id='text' type='text' style='width:80%'>").attr({value: id});
 	var $allfr  = $("<div>").attr({id:"allfr",title:"allfriends"}).text( " friends");
-	$("#userpanel").empty().append($img).append($name).append($onfr).append($allfr);
+	$("#userpanel").empty().append($img).append($name).append($id).append($onfr).append($allfr);
 }
 
 
@@ -259,6 +263,7 @@ function instancestatus(instanceid){
 	}else if(instanceid.indexOf("friends")!=-1){
 		//friend only
 		status =  "friend only";
+		
 	}else{
 		status = "public";
 	}

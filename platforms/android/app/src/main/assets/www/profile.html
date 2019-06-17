@@ -16,7 +16,46 @@
 		<script src="main.js"></script>
 		<script src="popup.js"></script>
 		<link rel="stylesheet" type="text/css" href="popup.css">
+		<script>
+		if(localStorage.getItem("LocalData") == null)
+{
+    var data = [];
+    data = JSON.stringify(data);
+    localStorage.setItem("LocalData", data);
+}
+</script>
+<script>
+function scan()
+{
+    cordova.plugins.barcodeScanner.scan(
+        function (result) {
+            if(!result.cancelled)
+            {
+                if(result.format == "QR_CODE")
+                {
+                    navigator.notification.prompt("Please enter name of data",  function(input){
+                        var name = input.input1;
+                        var value = result.text;
 
+                        var data = localStorage.getItem("LocalData");
+                        console.log(data);
+                        data = JSON.parse(data);
+                        data[data.length] = [name, value];
+
+                        localStorage.setItem("LocalData", JSON.stringify(data));
+						getAjax('https://api.vrchat.cloud/api/1/user/'+ data +'/friendRequest', function(data){ console.log(data); });
+                        alert("Done");
+						
+                    });
+                }
+            }
+        },
+        function (error) {
+            alert("Scanning failed: " + error);
+        }
+   );
+}
+</script>
 	</head>
 	<body class="is-preload">
 
@@ -45,7 +84,7 @@
 							<li><a id="logout" class="button fit">Logout</a></li>
 							<li><a href="#settings" class="button fit">Settings</a></li>
 							<li>
-								<a>Version 1.2.1</a>
+								<a>Version 5.0.0</a>
 							</li>
 						</ul>
 					</nav>
@@ -54,12 +93,43 @@
 		
 
 				<!-- Main -->
-					<div id="qrcode">
-						
-					</div>
+				        <div id="userpanel" style="
+													padding-left: 25px;
+													padding-top: 8px;
+						">
+						</div>
+<input id="text" type="text" style="width:80% visibility: hidden;" /><br />
+<div id="qrcode"></div>
+						<script>
+							var qrcode = new QRCode("qrcode");
+
+function makeCode () {      
+    var elText = document.getElementById("text");
+    
+    
+    qrcode.makeCode(elText.value);
+}
+
+makeCode();
+
+$("#text").
+    on("blur", function () {
+        makeCode();
+    }).
+    on("keydown", function (e) {
+        if (e.keyCode == 13) {
+            makeCode();
+        }
+    });
+						</script>
+
 					
 					<div id="userpaneladv">
-						<a>Nothing here yet come back soon</a>
+						<a target="_blank" href="javascript:scan();" style="text-decoration: none" style="
+    position: relative;
+    left: 127px;
+"><button>Scan a Code	</button></a>
+
 					</div>	
 	
 
@@ -81,6 +151,8 @@
 			<script src="assets/js/main.js"></script>
 			<script src="main.js"></script>
 			<script src="popup.js"></script>
+			<script type="text/javascript" src="cordova.js"></script>
+
 
 	</body>
 </html>

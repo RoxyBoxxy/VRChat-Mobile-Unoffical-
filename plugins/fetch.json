@@ -1,16 +1,16 @@
 {
-  "cordova-plugin-firebase": {
+  "cordova-plugin-whitelist": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-firebase@^1.0.5"
+      "id": "cordova-plugin-whitelist@1"
     },
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-appversion": {
+  "phonegap-plugin-barcodescanner": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-appversion@^1.0.0"
+      "id": "phonegap-plugin-barcodescanner@8.0.1"
     },
     "is_top_level": true,
     "variables": {}

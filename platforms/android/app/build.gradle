@@ -90,7 +90,7 @@ ext {
 }
 
 // PLUGIN GRADLE EXTENSIONS START
-apply from: "../cordova-plugin-firebase/vrchatmobile-build.gradle"
+apply from: "../phonegap-plugin-barcodescanner/vrchatmobile-barcodescanner.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras1 = file('build-extras.gradle').exists()
@@ -267,13 +267,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: '*.jar')
     // SUB-PROJECT DEPENDENCIES START
     implementation(project(path: ":CordovaLib"))
-    implementation "com.google.gms:google-services:+"
-    implementation "com.google.android.gms:play-services-tagmanager:+"
-    implementation "com.google.firebase:firebase-core:+"
-    implementation "com.google.firebase:firebase-messaging:+"
-    implementation "com.google.firebase:firebase-crash:+"
-    implementation "com.google.firebase:firebase-config:+"
-    implementation "com.google.firebase:firebase-perf:+"
+    implementation "com.android.support:support-v4:27.+"
     // SUB-PROJECT DEPENDENCIES END
 }
 
