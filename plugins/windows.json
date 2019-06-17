@@ -12,9 +12,6 @@
     },
     "cordova-plugin-firebase": {
       "PACKAGE_NAME": "VRChatMobile(Unofficial)"
-    },
-    "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "VRChatMobile(Unofficial)"
     }
   },
   "dependent_plugins": {}

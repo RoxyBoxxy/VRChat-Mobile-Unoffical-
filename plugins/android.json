@@ -8,13 +8,10 @@
   },
   "installed_plugins": {
     "cordova-plugin-appversion": {
-      "PACKAGE_NAME": "com.roxyboxxy.vrchub"
+      "PACKAGE_NAME": "com.roxyboxxy.vrchatmobile"
     },
     "cordova-plugin-firebase": {
-      "PACKAGE_NAME": "com.roxyboxxy.vrchub"
-    },
-    "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.roxyboxxy.vrchub"
+      "PACKAGE_NAME": "com.roxyboxxy.vrchatmobile"
     }
   },
   "dependent_plugins": {}

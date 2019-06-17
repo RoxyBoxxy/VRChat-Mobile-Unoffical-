@@ -79,6 +79,7 @@ function sendReqCommand(prop,endpoint,success,error){
 		        console.log("XMLHttpRequest : " + XMLHttpRequest.status);
 		        console.log("textStatus     : " + textStatus);
 		        console.log("errorThrown    : " + errorThrown.message);
+				alert ("Error connecting to the VRChat Servers, Check your connection and try again");
 				error();
 			}
 	$.ajax(p);

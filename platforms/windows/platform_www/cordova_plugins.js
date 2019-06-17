@@ -13,8 +13,7 @@ module.exports.metadata =
 // TOP OF METADATA
 {
     "cordova-plugin-appversion": "1.0.0",
-    "cordova-plugin-firebase": "1.0.5",
-    "cordova-plugin-whitelist": "1.3.3"
+    "cordova-plugin-firebase": "1.0.5"
 };
 // BOTTOM OF METADATA
 });
