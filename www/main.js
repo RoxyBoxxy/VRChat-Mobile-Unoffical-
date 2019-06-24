@@ -79,7 +79,7 @@ function sendReqCommand(prop,endpoint,success,error){
 		        console.log("XMLHttpRequest : " + XMLHttpRequest.status);
 		        console.log("textStatus     : " + textStatus);
 		        console.log("errorThrown    : " + errorThrown.message);
-				alert ("Error code " + XMLHttpRequest.status);
+				alert ("Error code " + XMLHttpRequest.status); // Throws a error message to the user, Will update this to a better alert
 				error();
 			}
 	$.ajax(p);
@@ -155,7 +155,7 @@ function showInfo(data){
 
 
 function reqToken(success,error){
-	//basic�F�؂�token���擾�i�X�V�j
+	// Get Basic Token
 	var u = getUsername();
 	var p = getPassword();
 	var k = getClientapikey();
@@ -166,6 +166,7 @@ function reqToken(success,error){
 }
 
 function fetchOnlinedata(success){
+	// Got token now getting friends data
 	var key = getClientapikey();
 	var token = getToken();
 	sendReqCommand({type:"auth",key:key,token:token},"auth/user/friends",(data)=>{
@@ -207,7 +208,7 @@ function showfriends(data){
 				src:val["currentAvatarThumbnailImageUrl"],
 				align:"middle"
 			});
-			if (debugFriends) {console.log("****name ",val["displayName"]);} // whats with your console logging? I marked it so it would be easyer to find when i have 100lines of errors
+			if (debugFriends) {console.log("Friends Username ",val["displayName"]);} // whats with your console logging? I marked it so it would be easyer to find when i have 100lines of errors
 			var worldid = worldId(val["location"]);
 			var instanceid = instanceId(val["location"]);
 
@@ -345,18 +346,18 @@ function login(){
 			console.log("has token");
 			sendReqCommand({user:u,pass:p,key:k,token:t,type:"auth"},"auth/user",
 				(data)=>{
-					//����������serUserdata���ĕ\��
+					//Check User Login Data
 					loginsuccess(data);
 				},
 				()=>{
-					//�ł��Ȃ�������token���Â��Ƃ������ƂȂ̂�reqtoken�ōX�V����
+					// If no Token Get one
 					reqToken(
 						(data)=>{
-							//�擾�ɐ���������setUserdata���ĕ\��
+							// Set the user as logged in
 							loginsuccess(data);
 						},()=>{
-							//�擾�Ɏ��s�������\��error:���O�C���ł��܂����ł���
-							//���O�C�����ʂ� // this is fucking dumb. wtf great comments
+							// If no token was fetched then show status as logged out
+							
 							loginstatus(false);
 							logout();
 						}
@@ -364,13 +365,12 @@ function login(){
 				}
 			);
 		}else{
-			//token���Ȃ����΁i���񃍃O�C���j
+			//For first login
 			console.log("the first login");
 			reqToken((data)=>{
 				loginsuccess(data);
 
 			},()=>{
-				//���s�iapikey���ύX���ꂽ�����O�C�����񂪊Ԉ����Ă����j�Ȃ��΃��O�C�����������Ȃ���
 				loginstatus(false);
 				logout();
 
