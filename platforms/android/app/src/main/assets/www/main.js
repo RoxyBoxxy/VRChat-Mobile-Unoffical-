@@ -109,26 +109,47 @@ function getInfo(success,error){
 	localStorage["user_name"] = userdata["displayName"];
 	localStorage["friends_num"] = userdata["friends"].length;
 	localStorage["usr_id"] = userdata["id"];
+	localStorage["usr_email"] = userdata["obfuscatedEmail"];
+	localStorage["usr_passusr"] = userdata["pastDisplayNames"];
+	localStorage["usr_usrtype"] = userdata["developerType"];
+	localStorage["usr_lastlogin"] = userdata["last_login"];
+	localStorage["usr_tags"] = userdata["tags"];
 	showInfo(userdata);
 	},error);
 }
 
 function showInfo(data){
-	$("#userpanel").show(); 
+	$("#userpanel").show();
+	$("#userpanel2").show(); 
 	console.log("Populating User Info......");
 	console.log(userdata['displayName']);
 	console.log(userdata['currentAvatarThumbnailImageUrl']);
 	var icon = userdata['currentAvatarThumbnailImageUrl'];
 	var name = userdata['displayName'];
-    var id = userdata["id"];
+    // Profile Info
+	var id = userdata["id"];
+	var email = userdata["obfuscatedEmail"];
+	var passusr = userdata["pastDisplayNames"];
+	var usrtype = userdata["developerType"];
+	var usrlastlogin = userdata["last_login"];
+	var usrtags = userdata["tags"];
 	
 	var $img = $("<img>").attr({src: icon,id:"myicon"});
 	var $name= $("<div>").text(name);
-	
 	var $onfr   = $("<div>").attr({id:"onfr" ,title:"onlinefriends"});
-	var $id = $("<input id='text' type='text' style='width:80%'>").attr({value: id});
 	var $allfr  = $("<div>").attr({id:"allfr",title:"allfriends"}).text( " friends");
-	$("#userpanel").empty().append($img).append($name).append($id).append($onfr).append($allfr);
+	// Profile Info
+	var $email = $("<a>Email:</a><input id='text' type='text' style='width:90%' disabled>").attr({value: email});
+	var $id = $("<a>User ID:</a><input id='text' type='text' style='width:90%'disabled>").attr({value: id});
+	var $pastuser = $("<a>Past Usernames:</a><input id='text' type='text' style='width:90%'disabled>").attr({value: passusr});
+	var $usrtype = $("<a>Developer Type:</a><input id='text' type='text' style='width:90%'disabled>").attr({value: usrtype});
+	var $lastlogin = $("<a>Last Logged in:</a><input id='text' type='text' style='width:90%'disabled>").attr({value: usrlastlogin});
+	var $usrtags = $("<a>User Tags:</a><input id='text' type='text' style='width:90%'disabled>").attr({value: usrtags});
+
+	$("#userpanel").empty().append($img).append($name).append($onfr).append($allfr);
+	$("#userpanel2").empty().append($id).append($email).append($pastuser).append($usrtype).append($lastlogin).append($usrtags)
+	
+
 }
 
 
@@ -166,6 +187,7 @@ function fetchOnlinedata(success){
 }
 
 
+
 function showfriends(data){
 	$("#frineds").show();
 	$("#friends").empty();
@@ -201,6 +223,8 @@ function showfriends(data){
 
 	});
 }
+
+
 
 function preset_in(str){
 	return " in " + str;
@@ -361,9 +385,9 @@ function logout(){
 	$("#friendspanel").hide();
 	$("#userpanel").hide();
 	$("#loading").hide();
-	["clientapikey","friends_num","islogin","pass","token","user_icon_url","user_name"].forEach((val)=>{
-		localStorage.removeItem(val);
-	});
+	$("#menu").hide();
+	localStorage.clear();
+
 	backgroundsend("logout");
 }
 

@@ -21,6 +21,21 @@
     <script src="background.js"></script>
     <link rel='stylesheet' href='material-refresh.min.css' />
     <script src='material-refresh.min.js'></script>
+	<script>
+	document.addEventListener('deviceready', function () {
+  // Enable to debug issues.
+  // window.plugins.OneSignal.setLogLevel({logLevel: 4, visualLevel: 4});
+  
+  var notificationOpenedCallback = function(jsonData) {
+    console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
+  };
+
+  window.plugins.OneSignal
+    .startInit("18914d27-076c-4fe4-b2b0-69692a290c35")
+    .handleNotificationOpened(notificationOpenedCallback)
+    .endInit();
+}, false);
+	</script>
 
 </head>
 
@@ -44,7 +59,8 @@
             <ul>
                 <li><a id="profile" href="profile.html" class="button fit">My Profile</a></li>
                 <li><a id="logout" href="#" class="button fit">Logout</a></li>
-                <li><a href="#settings" class="button fit">Settings(Coming Soon)</a></li>
+                <li><a href="chat.html" class="button fit">Chat Room</a></li>
+				<li><a href="noti.html" class="button fit">Notifcations</a></li>
                 <li>
                     <a href="https://discord.gg/FtZfEsk"><img src="img/logo_discord_our.png" style="
   																									height: 62px;
@@ -106,6 +122,7 @@
         </div>
 
         <div id="friendspanel">
+
             <ul id="friends" style="
    									 position: relative;
     								 right: 2.8%;

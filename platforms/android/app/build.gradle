@@ -91,6 +91,8 @@ ext {
 
 // PLUGIN GRADLE EXTENSIONS START
 apply from: "../phonegap-plugin-barcodescanner/vrchatmobile-barcodescanner.gradle"
+apply from: "../cordova-support-google-services/vrchatmobile-build.gradle"
+apply from: "../onesignal-cordova-plugin/vrchatmobile-build-extras-onesignal.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras1 = file('build-extras.gradle').exists()
@@ -268,6 +270,8 @@ dependencies {
     // SUB-PROJECT DEPENDENCIES START
     implementation(project(path: ":CordovaLib"))
     implementation "com.android.support:support-v4:27.+"
+    implementation "com.google.firebase:firebase-core:16.0.+"
+    implementation "com.onesignal:OneSignal:3.10.8"
     // SUB-PROJECT DEPENDENCIES END
 }
 
