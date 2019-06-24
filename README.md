@@ -4,6 +4,7 @@ An Android tool for managing your VRChat account and friends.
 # Status
 [![Known Vulnerabilities](https://snyk.io/test/github/RoxyBoxxy/VRChat-Mobile-Unoffical-/badge.svg)](https://snyk.io/test/github/RoxyBoxxy/VRChat-Mobile-Unoffical-)
 
+[![Build Status](https://travis-ci.org/RoxyBoxxy/VRChat-Mobile-Unoffical-.svg?branch=master)](https://travis-ci.org/RoxyBoxxy/VRChat-Mobile-Unoffical-)
 # License 
 
 MIT License
