@@ -79,7 +79,6 @@ function sendReqCommand(prop,endpoint,success,error){
 		        console.log("XMLHttpRequest : " + XMLHttpRequest.status);
 		        console.log("textStatus     : " + textStatus);
 		        console.log("errorThrown    : " + errorThrown.message);
-				alert ("Error code " + XMLHttpRequest.status); // Throws a error message to the user, Will update this to a better alert
 				error();
 			}
 	$.ajax(p);
@@ -263,7 +262,7 @@ function esc(str){
   });
 }
 function loginerror(data){
-
+ alert("Login Error, Check Username or password")
 }
 
 
@@ -281,16 +280,16 @@ function instanceId(str){
 }
 function instancestatus(instanceid){
 	var status = ""
-	if(instanceid==""){return "-----"}
+	if(instanceid==""){return "Invite Only"}
 	if(instanceid.indexOf("hidden")!=-1){
 			//friends of guests
 			status = "friends of guests";
 	}else if(instanceid.indexOf("friends")!=-1){
 		//friend only
-		status =  "friend only";
+		status =  "Friend only";
 		
 	}else{
-		status = "public";
+		status = "Public";
 	}
 
 	return status;
