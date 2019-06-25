@@ -99,7 +99,7 @@ function scan()
             <ul>
                 <li><a id="Friends" href="index.html" class="button fit">My Friends</a></li>
                 <li><a id="logout" href="#" class="button fit">Logout</a></li>
-                <li><a href="#settings" class="button fit">Settings(Coming Soon)</a></li>
+        <li><a href="noti.html" class="button fit">Notifcations</a></li>
                 <li>
                     <a href="https://discord.gg/FtZfEsk"><img src="img/logo_discord_our.png" style="
   																									height: 62px;
@@ -179,7 +179,7 @@ function scan()
 
 function makeCode () {      
        var elText = document.getElementById('id');
-        qrcode.makeCode(elText.value);
+        qrcode.makeCode(showInfo.id);
 }
 makeCode();
 
